@@ -1,4 +1,5 @@
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer as FastMCP
+
 import os, requests, base64
 
 mcp = FastMCP("moss-tts")
